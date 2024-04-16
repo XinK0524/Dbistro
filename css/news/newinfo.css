@@ -1,0 +1,88 @@
+.section-newinfo{
+    width: 100%;
+    background: #F7F2EF;
+    padding: 100px 0;
+}
+.section-newinfo .container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.section-newinfo .container h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F84817;
+    text-align: center;
+    border-bottom: 3px solid #F84817 ;
+    padding-bottom: 50px;
+}
+.section-newinfo .container .info{
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+}
+.section-newinfo .container .info .pic-group{
+    width: 40%;
+    display: flex;
+    border-right: 3px solid #352D21;
+    position: relative;
+}
+.section-newinfo .container .info .pic-group .pic{
+    width: 40%;
+    padding: 0 30px;
+}
+.section-newinfo .container .info .pic-group .pic img{
+    width: 100%;
+    vertical-align: middle;
+}
+.section-newinfo .container .info .pic-group .pic:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.section-newinfo .container .info .pic-group .pic:nth-child(2){
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.section-newinfo .container .info nav{
+    width: 55%;
+}
+.section-newinfo .container .info nav .content{
+    width: 100%;
+    display: block;
+}
+.section-newinfo .container .info nav .content .title{
+    color: #352D21;
+    display: block;
+    padding: 20px 0 20px ;
+    margin-left: 70px;
+    border-bottom: 3px solid #352D21;
+}
+.section-newinfo .container .info nav .content .title span{
+    font-size: 16px;
+}
+.section-newinfo .container .info nav .content .title .button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-newinfo .container .info nav .content .title .button h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.section-newinfo .container .info nav .content .title .button span{
+    font-size: 25px;
+    color: #F84817;
+}
+.section-newinfo .container .info nav .content .title .txt{
+    display: none;
+    line-height: 32px;
+    width: 80%;
+}
+.section-newinfo .container .info nav .content .title .btn{
+    display: none;
+}
+.section-newinfo .container .info nav .content .title .btn:checked + .button + .txt{
+    display: block;
+}

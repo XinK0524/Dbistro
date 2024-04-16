@@ -1,0 +1,51 @@
+.section-chef{
+    width: 100%;
+    background-color:#F7F2EF;
+;
+}
+.section-chef .container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+    
+}
+.section-chef .container .card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-chef .container .card .pic{
+    width: 40%;
+    overflow: hidden;
+    border-top-left-radius: 50% 35%;
+    border-top-right-radius: 50% 35%;
+}
+.section-chef .container .card .pic img{
+    width: 100%;
+    vertical-align: middle;
+}
+.section-chef .container .card .info{
+    width: 40%;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.section-chef .container .card .info h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #352D21;
+    display: inline-block;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+}
+.section-chef .container .card .info .txt + .txt{
+    margin-top: 30px;
+}
+.section-chef .container .card .info .txt p{
+    font-size: 16px;
+    color: #352D21;
+    letter-spacing: 3px;
+}
+.section-chef .container .card .info .txt p + p{
+    margin-top: 20px;
+}

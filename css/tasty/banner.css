@@ -1,0 +1,24 @@
+.section-banner{
+    width: 100%;
+    position: relative;
+}
+.section-banner .pic{
+    width: 100%;
+}
+.section-banner .pic img{
+    width: 100%;
+    vertical-align: middle;
+}
+.section-banner .txt{
+    width: 1200px;
+}
+.section-banner .txt{
+    width: 1200px;
+    margin: 0 auto;
+}
+.section-banner .txt span{
+    color: #F7F2EF;
+    font-size: 200px;
+    position: absolute;
+    bottom: -33px;
+}

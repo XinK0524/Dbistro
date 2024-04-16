@@ -1,0 +1,9 @@
+@import url('../common/reset.css');
+@import url('../common/header.css');
+@import url('banner.css');
+@import url('about.css');
+@import url('recommend.css');
+@import url('entertainment.css');
+@import url('location.css');
+@import url('../common/footer.css');
+@import url('../common/icon-top.css');

@@ -1,0 +1,72 @@
+.section-recommend{
+    width: 100%;
+    background-color: #F7F2EF;
+}
+.section-recommend .transitions-pic{
+    width: 100%;
+}
+.section-recommend .transitions-pic img{
+    width: 100%;
+    vertical-align: middle;
+}
+.section-recommend .container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.section-recommend .container .recommend-info{
+    width: 100%;
+    display: flex;
+}
+.section-recommend .container .pic-group{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-recommend .container .pic-group .food-pic{
+    flex: 0 0 calc(50% - 20px);
+    margin: 10px;
+}
+
+.section-recommend .container .pic-group .food-pic img{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.section-recommend .container .card{
+    width: 50%;
+    font-size: 24px;
+    color:#352D21;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+}
+.section-recommend .container .card span{
+    font-weight: 600;
+}
+.section-recommend .container .card h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F84817;
+    margin: 15px 0 50px;
+}
+.section-recommend .container .card p{
+    text-align: center;
+    line-height: 40px;
+}
+.section-recommend .container .card p + a{
+    margin-top: 40px;
+}
+.section-recommend .container .card a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    background-color: #F84817;
+}
+.section-recommend .container .card span{
+    margin-left: 10px;
+    vertical-align: text-top;
+}
+

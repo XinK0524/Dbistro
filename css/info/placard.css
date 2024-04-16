@@ -1,0 +1,53 @@
+.section-placard{
+    width: 100%;
+    background-color: #F7F2EF;
+    padding-bottom: 100px;
+}
+.section-placard .container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.section-placard .container .card-group{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.section-placard .container .card-group .card{
+    width: 33.333333%;
+    background-image: url(img/info/placard-bg.jpg);
+    padding: 50px 30px 30px;
+    margin: 0 12px;
+    text-align: center;
+}
+.section-placard .container .card-group .card img{
+    width: 100%;
+    vertical-align: middle;
+}
+.section-placard .container .card-group .card .pic{
+    width: 95px;
+    height: 95px;
+    margin: 0 auto;
+}
+.section-placard .container .card-group .card .pic img{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.section-placard .container .card-group .card .txt span{
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #352D21;
+    letter-spacing: 4px;
+    margin-top: 35px;    
+}
+.section-placard .container .card-group .card .txt span + span{
+    margin-top: 5px;
+}
+.section-placard .container .card-group .card .txt p{
+    font-size: 16px;
+    color: #352D21;
+    letter-spacing: 4px;
+    line-height: 25px;
+    margin-top: 15px;    
+}

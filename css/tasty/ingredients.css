@@ -1,0 +1,77 @@
+.section-ingredients{
+    width: 100%;
+    background-color: #F7F2EF;
+}
+.section-ingredients .container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.section-ingredients .container .title{
+    font-size: 48px;
+    color: #F84817;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+    padding: 0 20px;
+}
+.section-ingredients .container .title::before{
+    content:"";
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    width: 25%;
+    height: 3px;
+    background-color: #F84817;
+}
+.section-ingredients .container .title::after{
+    content:"";
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    width: 25%;
+    height: 3px;
+    background-color: #F84817;
+}
+.section-ingredients .container .card{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.section-ingredients .container .card .pic{
+    width: 80%;
+}
+.section-ingredients .container .card .pic img{
+    width: 100%;
+    vertical-align:middle;
+}
+.section-ingredients .container .card .txt{
+    background-image: url(img/tasty/ingredients-bg.jpg);
+    width: 40%;
+    text-align: center;
+    align-content: center;
+    padding: 60px 40px;
+    position: absolute;
+    top: 23%;
+    right: 0;
+}
+.section-ingredients .container .card .txt img{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.section-ingredients .container .card .txt h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #F84817;
+    margin-bottom: 40px;
+    letter-spacing: 4px;
+}
+.section-ingredients .container .card .txt p{
+    font-size: 16px;
+    color: #352D21;
+    letter-spacing: 4px;
+    line-height: 30px;
+}

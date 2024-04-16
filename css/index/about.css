@@ -1,0 +1,81 @@
+.section-about{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #F7F2EF;
+    position: relative;
+}
+
+.section-about .background-letf{
+    width: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.section-about .background-letf img{
+    width: 100%;
+    vertical-align: middle;
+}
+.section-about .background-right{
+    width: 40%;
+    position: absolute;
+    bottom:0;
+    right: 0;
+}
+.section-about .background-right img{
+    width: 100%;
+    vertical-align: middle;
+}
+.section-about .container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.section-about .card-group{
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    position: relative;
+}
+.section-about .card-group .card-pic{
+    width: 100%;
+}
+.section-about .card-group .card-pic img{
+    width: 100%;
+    vertical-align: middle;
+}
+.section-about .card-group .card{
+    width: 100%;
+    background-color: #7E4030;
+    padding: 15px;
+    margin: 0 15px;
+    font-size: 24px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+}
+.section-about .card-group .card span{
+    font-weight: 600;
+}
+.section-about .card-group .card h2{
+    font-size: 64px;
+    font-weight: bold;
+    color: #F84817;
+    margin: 15px 0 50px;
+}
+.section-about .card-group .card p{
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.section-about .card-group .card a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    background-color: #F84817;
+}
+.section-about .card-group .card a span{
+    margin-left: 10px;
+    vertical-align: text-top;
+}

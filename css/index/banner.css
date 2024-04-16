@@ -1,0 +1,32 @@
+.section-banner {
+    width: 100%;
+}
+.section-banner .container .slideshow{
+    position: relative;
+}
+.section-banner .container .slideshow .pic{
+    width: 100%;
+}
+.section-banner .container .slideshow .pic img{
+    width: 100%;
+    vertical-align: middle;
+}
+.section-banner .container .slideshow .page-group{
+    width: 1200px;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translate(-50%, -50%);
+}
+
+.section-banner .container .slideshow .page-group .page{
+    width: 100%;
+    height: 5px;
+    background-color: rgb(248, 72, 23,.5);
+    margin: 0 15px;
+    border-radius: 15px;    
+}
+.section-banner .container .slideshow .page-group .page:nth-child(1){
+    background: linear-gradient(to right, rgb(248, 72, 23) 50% ,rgb(248, 72, 23,.5) 20%);
+}

@@ -1,0 +1,55 @@
+.section-story{
+    width: 100%;
+    background-color: #F7F2EF;
+    position: relative;
+}
+.section-story .background{
+    width: 100%;
+}
+.section-story .background .pic-left{
+    width: 20%;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+.section-story .background .pic-left img{
+    width: 100%;
+    vertical-align: middle;
+}
+.section-story .background .pic-right{
+    width: 30%;
+    position: absolute;
+    right: 0;
+    bottom: -300px;
+}
+.section-story .background .pic-right img{
+    width: 100%;
+    vertical-align: middle;
+}
+.section-story .container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+    text-align: center;
+}
+.section-story .container h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F84817;
+    display: inline-block;
+    padding: 0 150px 40px;
+    border-bottom: 3px solid #F84817;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+}
+.section-story .container .txt + .txt{
+    margin-top: 30px;
+}
+.section-story .container .txt p{
+    font-size: 16px;
+    color: #352D21;
+    letter-spacing: 3px;
+}
+.section-story .container .txt p + p{
+    margin-top: 20px;
+}
