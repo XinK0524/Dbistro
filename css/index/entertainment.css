@@ -1,7 +1,5 @@
 .section-entertainment{
     width: 100%;
-    background-image: url(img/index/entertainment-background.jpg);
-    vertical-align: middle;
     display: flex;
     justify-content: end;
 }
