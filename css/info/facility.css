@@ -1,0 +1,66 @@
+.section-facility{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #F7F2EF;
+}
+.section-facility .container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.section-facility .container .card-group{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.section-facility .container .card-group .card{
+    width: 45%;
+    background-color: #F7F2EF;
+    position: relative;
+    margin-bottom: 36px;
+    cursor: pointer;
+}
+.section-facility .container .card-group .card:hover > .txt {
+    display: block;
+    cursor: pointer;
+}
+.section-facility .container .card-group .card .pic{
+    width: 100%;
+}
+.section-facility .container .card-group .card .pic img{
+    width: 100%;
+    vertical-align: middle;
+}
+.section-facility .container .card-group .card .txt{
+    width: 90%;
+    padding: 20px 10px 30px;
+    position: absolute;
+    left: 17px;
+    bottom: 0;
+    background-color: rgb(247, 242, 239);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: none;
+}
+.section-facility .container .card-group .card .txt h3{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F84519;    
+    margin-bottom: 12px;
+}
+.section-facility .container .card-group .card .txt  span{
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    color: #352D21;
+    margin-bottom: 40px;
+}
+.section-facility .container .card-group .card .txt p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #352D21;
+}
+.section-facility .container .card-group .card .txt p + p{
+    margin-top: 20px;
+}
+
