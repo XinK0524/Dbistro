@@ -19,10 +19,15 @@
 .section-sheet .container .card{
     display: flex;
     margin:  40px auto 0;
-    justify-content: center;
+    justify-content:space-evenly;
 }
 .section-sheet .container .card .sheetinfo{
-    width: 30%;
+    width: 400px;
+    padding-top: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .section-sheet .container .card .sheetinfo .info{
     font-size: 16px;
@@ -49,12 +54,53 @@
     width: 30%;
 }
 .section-sheet .container .card .sheetinfo .info .btn{
-    width: 40%;
+    width: 100px;
     height: 30px;
     background-color: #F84817;
     border: none;
     font-size: 20px;
     font-weight: bold;
     color: white;
-    
+
+}
+.section-sheet .container .card .date{
+    width: 50%;
+    text-align: center;
+}
+.section-sheet .container .card .date .pic{
+    width: 85%;
+    margin: 0 auto;
+}
+.section-sheet .container .card .date .pic img{
+    width: 100%;
+    vertical-align: middle;
+}
+.section-sheet .container .card .date span{
+    display: inline-block;
+    font-size: 24px;
+    color: #352D21;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.section-sheet .container .card .date span + span{
+    margin-left: 20px;
+}
+.section-sheet .container .card .date .tag span{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: none;
+    margin-top: 12px;
+}
+.section-sheet .container .card .date .tag{
+    margin-left: 37px;
+    text-align: left;
+}
+.section-sheet .container .card .date .tag .icon{
+    width: 12px;
+    height: 12px;
+    margin: 0 5px 0 15px;
+}
+.section-sheet .container .card .date .tag .icon img{
+    width: 100%;
+    vertical-align:baseline;
 }
