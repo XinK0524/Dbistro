@@ -57,7 +57,6 @@
     padding: 20px 0 20px ;
     margin-left: 70px;
     border-bottom: 3px solid #352D21;
-    overflow: hidden;
     position: relative;
 }
 .section-newinfo .container .info nav .content .title span{
@@ -76,15 +75,29 @@
 .section-newinfo .container .info nav .content .title .button span{
     font-size: 25px;
     color: #F84817;
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+    transition: 1s
 }
 .section-newinfo .container .info nav .content .title .txt{
     line-height: 32px;
     width: 80%;
-    position: absolute;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s
 }
 .section-newinfo .container .info nav .content .title .btn{
     display: none;
 }
 .section-newinfo .container .info nav .content .title .btn:checked + .button + .txt{
-    display: block;
+    max-height: 400px;
+    transition: max-height 1s
+}
+.section-newinfo .container .info nav .content .title .btn:checked + .button > span{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    scale: 1 -1;
+    transition: 1s
 }

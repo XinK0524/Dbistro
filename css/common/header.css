@@ -36,16 +36,18 @@ header .container .meun .meun-item{
 }
 header .container .meun .meun-item li{
     margin: 0 35px 0 0;
-    display: flex;
 }
-header .container .meun .meun-item li .icon{
-    height: 20px;
-    margin-right: 10px;
+header .container .meun .meun-item li a .icon{
+    display: inline-block;
+    height:20px;
+    margin-right: 3px;
 }
-header .container .meun .meun-item li .icon img{
+header .container .meun .meun-item li a .icon img{
     height: 100%;
+    vertical-align: top;
 }
 header .container .meun .meun-item li a{
+    display: inline-block;
     text-decoration: none;
     color: white;
     font-size: 24px;
