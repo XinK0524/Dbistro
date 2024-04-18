@@ -26,12 +26,17 @@
 .section-recommend .container .pic-group .food-pic{
     flex: 0 0 calc(50% - 20px);
     margin: 10px;
+    overflow: hidden;
 }
 
 .section-recommend .container .pic-group .food-pic img{
     width: 100%;
     height: auto;
     vertical-align: middle;
+}
+.section-recommend .container .pic-group .food-pic img:hover{
+    scale: 1.2;
+    transition: .5s;
 }
 .section-recommend .container .card{
     width: 50%;
@@ -68,5 +73,8 @@
 .section-recommend .container .card span{
     margin-left: 10px;
     vertical-align: text-top;
+}
+.section-recommend .container .card a:hover{
+    transform: scale(1.05);
 }
 

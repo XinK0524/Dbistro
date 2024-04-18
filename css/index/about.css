@@ -81,4 +81,8 @@
 .section-about .card-group .card a span{
     margin-left: 10px;
     vertical-align: text-top;
+    color: #F84817;
+}
+.section-about .card-group .card a:hover{
+    transform: scale(1.05);
 }

@@ -35,3 +35,7 @@
     margin-left: 10px;
     vertical-align: text-top;
 }
+.section-entertainment .card a:hover{
+    scale: 1.05;
+    transition: .5s;
+}
