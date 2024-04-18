@@ -34,19 +34,18 @@
     padding: 20px 10px 60px;
     position: absolute;
     left: 17px;
-    bottom: 0px;
+    bottom: 0;
     background-color: rgb(247, 242, 239);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     max-height: 0;
     transition: max-height 0.7s, bottom 0.5s;
 }
-.section-facility .container .card-group .card:hover > .txt {
-    /* display: block; */
+.section-facility .container .card-group .card:hover > .txt {    
     cursor: pointer;
-    padding: 20px 10px 15px;
     max-height: 300px; 
-    bottom: 0px; 
+    bottom: 0px;
+    padding: 20px 10px 20px; 
 }
 .section-facility .container .card-group .card .txt h3{
     font-size: 48px;

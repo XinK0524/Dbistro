@@ -57,6 +57,8 @@
     padding: 20px 0 20px ;
     margin-left: 70px;
     border-bottom: 3px solid #352D21;
+    overflow: hidden;
+    position: relative;
 }
 .section-newinfo .container .info nav .content .title span{
     font-size: 16px;
@@ -76,9 +78,9 @@
     color: #F84817;
 }
 .section-newinfo .container .info nav .content .title .txt{
-    display: none;
     line-height: 32px;
     width: 80%;
+    position: absolute;
 }
 .section-newinfo .container .info nav .content .title .btn{
     display: none;
