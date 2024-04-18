@@ -19,11 +19,9 @@
     position: relative;
     margin-bottom: 36px;
     cursor: pointer;
+    overflow: hidden; 
 }
-.section-facility .container .card-group .card:hover > .txt {
-    display: block;
-    cursor: pointer;
-}
+
 .section-facility .container .card-group .card .pic{
     width: 100%;
 }
@@ -33,14 +31,22 @@
 }
 .section-facility .container .card-group .card .txt{
     width: 90%;
-    padding: 20px 10px 30px;
+    padding: 20px 10px 60px;
     position: absolute;
     left: 17px;
-    bottom: 0;
+    bottom: 0px;
     background-color: rgb(247, 242, 239);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    display: none;
+    max-height: 0;
+    transition: max-height 0.7s, bottom 0.5s;
+}
+.section-facility .container .card-group .card:hover > .txt {
+    /* display: block; */
+    cursor: pointer;
+    padding: 20px 10px 15px;
+    max-height: 300px; 
+    bottom: 0px; 
 }
 .section-facility .container .card-group .card .txt h3{
     font-size: 48px;
