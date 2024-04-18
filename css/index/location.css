@@ -49,10 +49,19 @@
     padding: 15px 30px;
     background-color: #F84817;
     margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
-.section-location .container .location-info .card a span{
+.section-location .container .location-info .card a .icon{
+    width: 25px;
     margin-right: 10px;
-    vertical-align: text-bottom;
+}
+.section-location .container .location-info .card a .icon img{
+    width: 100%;
+    vertical-align: middle;
+    display: block;
 }
 
 .section-location .container .location-info .map{
