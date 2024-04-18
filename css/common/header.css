@@ -52,4 +52,18 @@ header .container .meun .meun-item li a{
     color: white;
     font-size: 24px;
     font-weight: 600;
+    position: relative;
+}
+header .container .meun .meun-item li a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    background-color: #fff;
+    width: 0;
+    transition: .3s;
+}
+header .container .meun .meun-item li a:hover::after{
+    width: 100%;
 }
