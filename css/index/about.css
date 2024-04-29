@@ -1,33 +1,10 @@
 .section-about{
     width: 100%;
     padding: 100px 0;
-    background-color: #F7F2EF;
+    background-color: #20201C;
     position: relative;
-    /* z-index: -1; */
 }
 
-.section-about .background-letf{
-    width: 40%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    /* z-index: -1; */
-}
-.section-about .background-letf img{
-    width: 100%;
-    vertical-align: middle;
-}
-.section-about .background-right{
-    width: 40%;
-    position: absolute;
-    bottom:0;
-    right: 0;
-    /* z-index: -1; */
-}
-.section-about .background-right img{
-    width: 100%;
-    vertical-align: middle;
-}
 .section-about .container{
     width: 1200px;
     margin: 0 auto;
@@ -47,24 +24,22 @@
 }
 .section-about .card-group .card{
     width: 100%;
-    background-color: #7E4030;
     padding: 15px;
     margin: 0 15px;
-    font-size: 24px;
+    font-size: 18px;
     color:white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    letter-spacing: 5px;
 }
 .section-about .card-group .card span{
     font-weight: 600;
 }
 .section-about .card-group .card h2{
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bold;
-    color: #F84817;
+    color: white;
     margin: 15px 0 30px;
 }
 .section-about .card-group .card p{
@@ -76,12 +51,11 @@
     text-decoration: none;
     color: white;
     padding: 15px 20px;
-    background-color: #F84817;
+    background-color: #DBA33C;
 }
 .section-about .card-group .card a span{
     margin-left: 10px;
     vertical-align: text-top;
-    color: #F84817;
 }
 .section-about .card-group .card a:hover{
     transform: scale(1.05);

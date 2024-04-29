@@ -1,14 +1,8 @@
 .section-recommend{
     width: 100%;
-    background-color: #F7F2EF;
+    background-color: #20201C;
 }
-.section-recommend .transitions-pic{
-    width: 100%;
-}
-.section-recommend .transitions-pic img{
-    width: 100%;
-    vertical-align: middle;
-}
+
 .section-recommend .container{
     width: 1200px;
     margin: 0 auto;
@@ -39,36 +33,33 @@
     transition: .5s;
 }
 .section-recommend .container .card{
+    background-color: #EDE4D5;
+    margin: 10px;
     width: 50%;
-    font-size: 24px;
+    font-size: 18px;
     color:#352D21;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: 5px;
 }
 .section-recommend .container .card span{
     font-weight: 600;
 }
 .section-recommend .container .card h2{
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bold;
-    color: #F84817;
-    margin: 15px 0 50px;
+    margin: 15px 0 20px;
+    border: 1px solid #DBA33C;
+    display: inline-block;
 }
 .section-recommend .container .card p{
     text-align: center;
     line-height: 40px;
 }
-.section-recommend .container .card p + a{
-    margin-top: 40px;
-}
+
 .section-recommend .container .card a{
     text-decoration: none;
     color: white;
     padding: 15px 20px;
-    background-color: #F84817;
+    background-color: #DBA33C;
+    margin-top: 20px;
 }
 .section-recommend .container .card span{
     margin-left: 10px;

@@ -5,7 +5,7 @@ header {
 header .container{
     width: 100%;
     height: 100px;
-    background-color: #752E18;
+    background-color: #090902;
 }
 header .container .meun{
     width: 100%;
@@ -17,8 +17,8 @@ header .container .meun{
 header .container .logo{
     width: 250px;
     height: 160px;
-    background-color: #1C1917;
-    border: 1px solid #1C1917;
+    background-color: #090902;
+    border: 1px solid #090902;
     border-bottom-left-radius: 12% 20%;
     border-bottom-right-radius: 12% 20%;
     display: flex;
