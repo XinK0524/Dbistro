@@ -5,31 +5,32 @@
 }
 .section-entertainment .card{
     width: 30%;
-    background-color: rgb(11, 22, 26,.5);
-    font-size: 24px;
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255 , .6);
+    font-size: 18px;
+    color: #352D21;
     padding: 100px 150px 100px 30px;
-    letter-spacing: 5px;
 }
 .section-entertainment .card span{
     font-weight: 600;
+    font-size: 18px;
+    padding-left: 10px;
 }
 .section-entertainment .card h2{
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bold;
-    color: #F84817;
-    margin: 15px 0 50px;
+    margin: 15px 0 30px;
 }
 .section-entertainment .card p{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     line-height: 40px;
+    padding-right: 70px;
 }
 .section-entertainment .card a{
     display: inline-block;
     text-decoration: none;
     color: white;
     padding: 15px 20px;
-    background-color: #F84817;
+    background-color: #DBA33C;
 }
 .section-entertainment .card a span{
     margin-left: 10px;

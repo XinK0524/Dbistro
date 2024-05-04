@@ -9,7 +9,7 @@
 }
 .section-meun .container .tag-group{
     width: 100%;
-    border-bottom: 3px solid #F84817;
+    border-bottom: 3px solid #DBA33C;
     margin-bottom: 30px;
     display: flex;
 }
@@ -18,7 +18,7 @@
 }
 .section-meun .container .tag-group .tag{
     padding: 15px 30px;
-    background-color: #F84817;
+    background-color: #DBA33C;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     margin-right: 10px;
@@ -33,14 +33,10 @@
     display: none;
 }
 
-.section-meun .container input:not(:checked) .tag{
-    background-color: #a82b08;
-}
-
 .section-meun .container .tag-group .tag h2{
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
-    color: rgb(255, 255, 255);
+    color: white;
 }
 
 .section-meun .container .card-group{
@@ -79,35 +75,22 @@
     box-shadow: none;
 }
 .section-meun .container .card-group .card .txt{
-    text-align:  center;
+    text-align:center;
+    color: #352D21;
+    font-size: 20px;
 }
 .section-meun .container .card-group .card .txt h3{
-    display: inline-block;
-    font-size: 24px;
     font-weight: 600;
-    color: white;
     margin-top: 30px;
-    background-color: #F84817;
-    border-radius: 30px;
-    padding: 5px 30px;
-    letter-spacing: 4px;
 }
 .section-meun .container .card-group .card .txt p{
-    font-size: 24px;
-    color: #352D21;
+    font-size: 16px;
     margin: 16px auto 16px;
     padding: 0 30px;
-    letter-spacing: 4px;
     line-height: 24px;
-    text-align: center;
 }
 .section-meun .container .card-group .card .txt span{
-    display: block;
     font-weight: 600;
-    font-size: 24px;
-    margin-right: 15px;
-    color: #352D21;
-    text-align: end;
 }
 #card-3{
     position: relative;

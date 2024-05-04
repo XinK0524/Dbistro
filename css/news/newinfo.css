@@ -1,6 +1,6 @@
 .section-newinfo{
     width: 100%;
-    background: #F7F2EF;
+    background: #EDE4D5;
     padding: 100px 0;
 }
 .section-newinfo .container{
@@ -10,9 +10,9 @@
 .section-newinfo .container h2{
     font-size: 48px;
     font-weight: bold;
-    color: #F84817;
+    color: #DBA33C;
     text-align: center;
-    border-bottom: 3px solid #F84817 ;
+    border-bottom: 3px solid #DBA33C ;
     padding-bottom: 50px;
 }
 .section-newinfo .container .info{
@@ -74,7 +74,7 @@
 }
 .section-newinfo .container .info nav .content .title .button span{
     font-size: 25px;
-    color: #F84817;
+    color: #DBA33C;
     position: absolute;
     right: 0;
     bottom: 40px;

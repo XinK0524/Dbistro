@@ -1,6 +1,6 @@
 .section-ingredients{
     width: 100%;
-    background-color: #F7F2EF;
+    background-color: #EDE4D5;
 }
 .section-ingredients .container{
     width: 1200px;
@@ -8,8 +8,8 @@
     padding: 100px 0;
 }
 .section-ingredients .container .title{
-    font-size: 48px;
-    color: #F84817;
+    font-size: 40px;
+    color: #DBA33C;
     font-weight: bold;
     letter-spacing: 3px;
     text-align: center;
@@ -24,7 +24,7 @@
     top: 50%;
     width: 25%;
     height: 3px;
-    background-color: #F84817;
+    background-color: #DBA33C;
 }
 .section-ingredients .container .title::after{
     content:"";
@@ -33,7 +33,7 @@
     top: 50%;
     width: 25%;
     height: 3px;
-    background-color: #F84817;
+    background-color: #DBA33C;
 }
 .section-ingredients .container .card{
     width: 100%;
@@ -64,7 +64,7 @@
 .section-ingredients .container .card .txt h3{
     font-size: 24px;
     font-weight: 600;
-    color: #F84817;
+    color: #DBA33C;
     margin-bottom: 40px;
     letter-spacing: 4px;
 }

@@ -1,6 +1,6 @@
 .section-story{
     width: 100%;
-    background-color: #F7F2EF;
+    background-color: #EDE4D5;
     position: relative;
 }
 .section-story .background{
@@ -10,8 +10,19 @@
     width: 20%;
     position: absolute;
     top: 30px;
-    left: 0;
+    left: 0px;
+    /* animation:move 2s infinite; */
+    
 }
+/* @keyframes move{
+    from{
+        left:-130px;
+    }
+    to{
+        left:0px;
+        
+    }
+}  */
 .section-story .background .pic-left img{
     width: 100%;
     vertical-align: middle;
@@ -35,10 +46,10 @@
 .section-story .container h2{
     font-size: 48px;
     font-weight: bold;
-    color: #F84817;
+    color: #DBA33C;
     display: inline-block;
     padding: 0 150px 40px;
-    border-bottom: 3px solid #F84817;
+    border-bottom: 3px solid #DBA33C;
     margin-bottom: 40px;
     letter-spacing: 3px;
 }

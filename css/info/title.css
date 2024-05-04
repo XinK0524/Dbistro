@@ -1,6 +1,6 @@
 .section-title{
     width: 100%;
-    background-color: #F7F2EF;
+    background-color: #EDE4D5;
     padding-top: 100px;
 }
 .section-title .container{
@@ -9,11 +9,10 @@
 }
 .section-title .container h2{
     width: 70%;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bold;
-    color: #F84519;
-    letter-spacing: 4px;
-    border-bottom: 3px solid #F84519;
+    color: #DBA33C;
+    border-bottom: 3px solid #DBA33C;
     padding: 0 15px 40px;
     margin: 0 auto 40px;
     text-align: center;

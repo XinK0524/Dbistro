@@ -1,6 +1,6 @@
 .section-sheet{
     width: 100%;
-    background-color: #F7F2EF;
+    background-color: #EDE4D5;
     padding: 100px 0;
 }
 .section-sheet .container{
@@ -10,11 +10,11 @@
 .section-sheet .container h2{
     font-size: 48px;
     font-weight: bold;
-    color: #F84817;
+    color: #DBA33C;
     letter-spacing: 4px;
     text-align: center;
     padding-bottom: 50px;
-    border-bottom: 3px solid #F84817;
+    border-bottom: 3px solid #DBA33C;
 }
 .section-sheet .container .card{
     display: flex;
@@ -45,7 +45,7 @@
 }
 .section-sheet .container .card .sheetinfo .info  input{
     width: 200px;
-    background-color: #F7F2EF;
+    background-color: #EDE4D5;
     border:1px solid #352D21;
     border-top-right-radius: 5px 5px;
     border-bottom-left-radius: 5px 5px;
@@ -56,7 +56,7 @@
 .section-sheet .container .card .sheetinfo .info .btn{
     width: 100px;
     height: 30px;
-    background-color: #F84817;
+    background-color: #DBA33C;
     border: none;
     font-size: 20px;
     font-weight: bold;

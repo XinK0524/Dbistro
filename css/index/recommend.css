@@ -38,16 +38,19 @@
     width: 50%;
     font-size: 18px;
     color:#352D21;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .section-recommend .container .card span{
     font-weight: 600;
+    font-size: 18px;
 }
 .section-recommend .container .card h2{
     font-size: 40px;
     font-weight: bold;
-    margin: 15px 0 20px;
-    border: 1px solid #DBA33C;
-    display: inline-block;
+    margin-bottom: 20px;
 }
 .section-recommend .container .card p{
     text-align: center;
@@ -63,7 +66,6 @@
 }
 .section-recommend .container .card span{
     margin-left: 10px;
-    vertical-align: text-top;
 }
 .section-recommend .container .card a:hover{
     transform: scale(1.05);
