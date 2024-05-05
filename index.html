@@ -15,15 +15,6 @@
     font-weight: 300-700;
     font-style: normal;
     } */
-    .section-entertainment{
-        background-image: url(img/index/entertainment-background.jpg);
-        vertical-align: middle;
-    }
-
-    .section-location{
-        background-image: url(img/index/location-bg.jpg);
-        vertical-align: middle;
-    }
     .section-recommend .transitions-pic{
         background-attachment: fixed;
         bottom: 0;
@@ -33,18 +24,70 @@
         background-image: url(img/index/recommend-transitions.jpg);
         background-repeat: no-repeat;
         background-position: center center;
-        /* background-size: cover; */
+        object-fit:  cover;
     }
+
+    @media screen and (max-width:768px) {
+        .section-recommend .transitions-pic{
+        background-attachment: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 180px;
+        background-image: url(img/index/recommend-transitions-768.jpg);
+        background-repeat: no-repeat;
+        background-position: left center;
+        }
+
+    }
+
+
+    .section-entertainment{
+        background-image: url(img/index/entertainment-background.jpg);
+    }
+
+    @media screen and (max-width:768px) {
+        .section-entertainment{
+        background-image: url(img/index/entertainment-background-768.jpg);
+    }
+        .section-entertainment img{
+            width: 100%;
+            vertical-align: middle;
+            object-fit:  cover;
+            background-repeat: no-repeat;
+        }
+
+
+    }
+    .section-location{
+        background-image: url(img/index/location-bg.jpg);
+        vertical-align: middle;
+    }
+    @media screen and (max-width:768px) {
+        .section-location{
+        background-image: url(img/index/location-bg.jpg);
+        vertical-align: middle;
+    }
+    }
+
+    
     </style>
 </head>
 <body>
     <!-- 導覽列 -->
     <header>
+        
         <div class="container">
             <a href="index.html"><div class="logo">
                 <img src="img/common/logo.svg" alt="logo">
             </div></a>
-            <nav class="meun">                
+            <input type="checkbox" name="" id="meun-switch">
+            <label for="meun-switch" class="hb">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+            </label> 
+            <nav class="meun">
                 <ul class="meun-item">
                     <li>
                         <a href="news.html">
@@ -80,22 +123,34 @@
                     </li>
                 </ul>
             </nav>
+            
         </div>
     </header>
     <!-- banner -->
     <section class="section-banner">
-        <div class="container">
-            <div class="slideshow">
+        <div class="slideshow">
+            <div class="pic-group">
                 <div class="pic">
-                    <img src="img/index/banner-img.svg" alt="banner">
+                    <img src="img/index/banner_1.jpg" alt="">
                 </div>
-                <div class="page-group">
-                    <div class="page"></div>
-                    <div class="page"></div>
-                    <div class="page"></div>
-                    <div class="page"></div>
+                <!-- <div class="pic">
+                    <img src="img/index/banner_2.jpg" alt="">
                 </div>
+                <div class="pic">
+                    <img src="img/index/banner_3.jpg" alt="">
+                </div> -->
             </div>
+            <div class="page">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="title">
+            <span>GIVE YOU ONLY</span>
+            <span>THE TASTIEST</span>
+            <span>AND WARMEST STUFF</span>
+            <h1>來到這裡只有美食與快樂</h1>
         </div>
     </section>
     <!--關於我們 -->

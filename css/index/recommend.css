@@ -71,3 +71,56 @@
     transform: scale(1.05);
 }
 
+@media screen and (max-width:768px) {
+    .section-recommend .container{
+        width: 80%;
+        padding: 50px 0;
+    }
+    .section-recommend .container .pic-group{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section-recommend .container .pic-group .food-pic{
+        flex: 0 0 calc(50% - 20px);
+        margin: 10px;
+        overflow: hidden;
+    }
+    
+    .section-recommend .container .pic-group .food-pic img{
+        width: 100%;
+        height: auto;
+        vertical-align: middle;
+    }
+    .section-recommend .container .card{
+        background-color: #EDE4D5;
+        margin: 10px;
+        padding: 15px 0;
+        font-size: 12px;
+    }
+    .section-recommend .container .card span{
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .section-recommend .container .card h2{
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+    .section-recommend .container .card p{
+        text-align: center;
+        line-height: 25px;
+    }
+    
+    .section-recommend .container .card a{
+        padding: 10px 15px;
+        margin-top: 15px;
+    }
+    .section-recommend .container .card span{
+        margin-left: 5px;
+    }
+    .section-recommend .container .card span img{
+        width: 8px;
+        height: 8px;
+    }
+}
+

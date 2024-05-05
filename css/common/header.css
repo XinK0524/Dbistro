@@ -1,15 +1,17 @@
+input{
+    display: none;
+}
 header {
     width: 100%;
     position: relative;
 }
 header .container{
     width: 100%;
-    height: 100px;
     background-color: #090902;
 }
 header .container .meun{
     width: 100%;
-    height: 100%;
+    padding: 40px 0;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -26,7 +28,7 @@ header .container .logo{
     align-content: center;
     position: absolute;
     left: 35px;
-    z-index: 3;
+    z-index: 15;
 }
 header .container .logo img{
     width: 200px;
@@ -66,4 +68,82 @@ header .container .meun .meun-item li a::after{
 }
 header .container .meun .meun-item li a:hover::after{
     width: 100%;
+}
+
+@media screen and (max-width:768px){
+    header .container{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    header .container .hb{
+        width: 80px;
+        height: 80px;
+        background-color: #454545;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    header .container .hb span{
+        display: block;
+        margin: 0 auto;
+        width: 80% ;
+        height: 7px;
+        background-color: #fff;
+    }
+    header .container .logo{
+        width: 200px;
+        height: 120px;
+        position: absolute;
+        top: 0;
+        left: 10px;
+    }
+    header .container .logo img{
+        width: 150px;
+    }
+    header .container .meun{
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        background-color: #454545;
+        padding: 10px 0;
+        z-index: 10;
+        display: none;
+    }
+    header .container .meun .meun-item{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin:  auto;
+    }
+    header .container .meun .meun-item li{
+        margin: 0;
+        padding: 25px 0;
+        text-align: center;
+    }
+    header .container .meun .meun-item li + li{
+        border-top: 1px solid #fff;
+        
+    }
+    #meun-switch:checked ~ .meun{
+        display: block;
+    }
+    #meun-switch:checked ~ .hb{
+        position: relative;
+    }
+    #meun-switch:checked ~ .hb span:nth-child(1){
+        transform: rotate(45deg);
+        position: absolute;
+        left: 12%;
+    }
+    #meun-switch:checked ~ .hb span:nth-child(2){
+        display: none;
+    }
+    #meun-switch:checked ~ .hb span:nth-child(3){
+        transform: rotate(-45deg);
+        position: absolute;
+        left: 12%;      
+    }
+    
 }

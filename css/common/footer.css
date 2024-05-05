@@ -51,3 +51,43 @@ footer .container .footer-item .icon-group .icon img{
     height: 100%;
     vertical-align: middle;
 }
+
+@media screen and (max-width:768px) {
+    footer .container{
+        width: 80%;
+    }
+    footer .container h2{
+        font-size: 20px;
+    }
+    footer .container span{
+
+    }
+    footer .container .footer-item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer .container .footer-item .logo{
+        width: 150px;
+    }
+    footer .container .footer-item .logo img{
+        width: 100%;
+        vertical-align: middle;
+    }
+    footer .container .footer-item .info{
+        line-height: 16px;
+        font-size: 12px;
+    }
+    footer .container .footer-item .icon-group{
+        margin: auto 0;
+    }
+    footer .container .footer-item .icon-group .icon{
+        display: inline-block;
+        height: 20px;
+        margin-right: 5px;
+    }
+    footer .container .footer-item .icon-group .icon img{
+        height: 100%;
+        vertical-align: middle;
+    }
+    
+}

@@ -33,10 +33,43 @@
     background-color: #DBA33C;
 }
 .section-entertainment .card a span{
+    font-size: 18px;
     margin-left: 10px;
-    vertical-align: text-top;
 }
 .section-entertainment .card a:hover{
     scale: 1.05;
     transition: .5s;
+}
+
+@media screen and (max-width:768px) {
+    .section-entertainment .card{
+        width: 30%;
+        background-color: rgb(255, 255, 255 , .6);
+        font-size: 12px;
+        padding: 30px 75px 30px 30px;
+    }
+    .section-entertainment .card span{
+        font-size: 12px;
+        padding-left: 5px;
+    }
+    .section-entertainment .card h2{
+        font-size: 20px;
+        margin: 0 0 15px;
+    }
+    .section-entertainment .card p{
+        margin-bottom: 20px;
+        line-height: 30px;
+        padding-right: 40px;
+    }
+    .section-entertainment .card a{
+        padding: 10px 15px;
+    }
+    .section-entertainment .card a span{
+        margin-left: 5px;
+    }
+    .section-entertainment .card a span img{
+        width: 8px;
+        height: 8px;
+    }
+
 }
