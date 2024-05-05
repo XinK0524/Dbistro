@@ -101,3 +101,85 @@
     scale: 1 -1;
     transition: 1s
 }
+
+@media screen and (max-width:768px) {
+    .section-newinfo{
+        padding: 50px 0;
+    }
+    .section-newinfo .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .section-newinfo .container h2{
+        font-size: 24px;
+        border-bottom: 2px solid #DBA33C ;
+        padding-bottom: 25px;
+    }
+    .section-newinfo .container .info{
+        width: 100%;
+        display: flex;
+        padding-top: 25px;
+    }
+    .section-newinfo .container .info .pic-group{
+        display: none;
+    }
+    .section-newinfo .container .info nav{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .section-newinfo .container .info nav .content{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+    .section-newinfo .container .info nav .content .title{
+        color: #352D21;
+        display: block;
+        padding: 20px 0 20px ;
+        margin-left: 0;
+        border-bottom: 2px solid #352D21;
+        position: relative;
+    }
+    .section-newinfo .container .info nav .content .title span{
+        font-size: 16px;
+    }
+    .section-newinfo .container .info nav .content .title .button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .section-newinfo .container .info nav .content .title .button h3{
+        font-size: 20px;
+        font-weight: 600;
+        margin: 20px 0;
+    }
+    .section-newinfo .container .info nav .content .title .button span{
+        font-size: 25px;
+        color: #DBA33C;
+        position: absolute;
+        right: 0;
+        bottom: 40px;
+        transition: 1s
+    }
+    .section-newinfo .container .info nav .content .title .txt{
+        line-height: 32px;
+        width: 80%;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.7s
+    }
+    .section-newinfo .container .info nav .content .title .btn{
+        display: none;
+    }
+    .section-newinfo .container .info nav .content .title .btn:checked + .button + .txt{
+        max-height: 400px;
+        transition: max-height 1s
+    }
+    .section-newinfo .container .info nav .content .title .btn:checked + .button > span{
+        position: absolute;
+        bottom: 10px;
+        right: 0;
+        scale: 1 -1;
+        transition: 1s
+    }
+}
