@@ -29,10 +29,10 @@
     vertical-align: middle;
 }
 .section-facility .container .card-group .card .txt{
-    width: 50%;
+    width: 80%;
     padding: 20px 10px 60px;
     position: absolute;
-    left: 5%;
+    left: 7%;
     bottom: 0;
     background-color: #EDE4D5;
     border-top-left-radius: 15px;

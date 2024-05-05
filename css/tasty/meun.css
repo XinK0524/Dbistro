@@ -66,8 +66,8 @@
     width: 60px;
     height: 60px;
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: -200px;
+    right: 5px;
 }
 .section-meun .container .card-group .card .pic .hot img{
     width: 100%;
@@ -85,7 +85,7 @@
 }
 .section-meun .container .card-group .card .txt p{
     font-size: 16px;
-    margin: 16px auto 16px;
+    margin: 16px auto;
     padding: 0 30px;
     line-height: 24px;
 }
@@ -142,3 +142,46 @@
 #card-4 .txt{
     display: none;
 }
+
+@media screen and (max-width:768px) {
+    .section-meun{
+        width: 100%;
+        padding: 50px 0;
+    }
+    .section-meun .container{
+        width: 80%;
+    }
+    .section-meun .container .tag-group{
+        width: 100%;
+        border-bottom: 2px solid #DBA33C;
+        margin-bottom: 30px;
+        display: flex;
+    }
+    .section-meun .container .tag-group .tag{
+        padding: 15px 30px;
+        margin-right: 10px;
+    }
+    .section-meun .container .tag-group .tag h2{
+        font-size: 20px;
+    }
+    .section-meun .container .card-group .card .pic .hot{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: -20px;
+        right: 5px;
+    }
+    .section-meun .container .card-group .card .txt{
+        font-size: 20px;
+    }
+    .section-meun .container .card-group .card .txt h3{
+        margin-top: 10px;
+    }
+    .section-meun .container .card-group .card .txt p{
+        font-size: 14px;
+        margin: 10px auto ;
+        padding: 0 12px;
+        line-height: 24px;
+    }
+}
+
