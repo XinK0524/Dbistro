@@ -7,64 +7,111 @@
     width: 1200px;
     margin: 0 auto;
 }
-.section-facility .container .card-group{
-    width: 100%;
+.section-facility .container .card{
+    width: 80%;
     display: flex;
-    gap: 1;
+    margin: 0 auto;
 }
-.section-facility .container .card-group .card{
-    background-color: #EDE4D5;
-    position: relative;
-    margin-bottom: 36px;
-    padding: 10px;
-    cursor: pointer;
-    overflow: hidden; 
+.section-facility .container .card .pic-group{
+    width: 60%;
+    display: flex;
 }
-
-.section-facility .container .card-group .card .pic{
-    width: 100%;
+.section-facility .container .card .pic-group .pic-big{
+    width: 80%;
+    display: block;
+    margin-right: 10px;
 }
-.section-facility .container .card-group .card .pic img{
+.section-facility .container .card .pic-group .pic-big img{
     width: 100%;
     vertical-align: middle;
+    object-fit: cover;
 }
-.section-facility .container .card-group .card .txt{
-    width: 80%;
-    padding: 20px 10px 60px;
-    position: absolute;
-    left: 7%;
-    bottom: 0;
-    background-color: #EDE4D5;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    max-height: 0;
-    transition: max-height 0.7s, bottom 0.5s;
+.section-facility .container .card .pic-group .pic-smalls{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
 }
-.section-facility .container .card-group .card:hover > .txt {    
-    cursor: pointer;
-    max-height: 300px; 
-    bottom: 0px;
-    padding: 20px 10px 20px; 
+.section-facility .container .card .pic-group .pic-smalls .pic-s{
+    width: 100%;
 }
-.section-facility .container .card-group .card .txt h3{
-    font-size: 20px;
+.section-facility .container .card .pic-group .pic-smalls .pic-s img{
+    width: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+}
+.section-facility .container .card .txt{
+    width: 40%;
+    margin:0 10px;
+    padding: 0 30px;
+    font-size: 16px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    color: #352D21;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-facility .container .card .txt h2{
+    font-size: 40px;
     font-weight: bold;
-    color: #DBA33C;    
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
-.section-facility .container .card-group .card .txt  span{
-    display: block;
-    font-size: 16px;
-    font-weight: 600;
-    color: #352D21;
-    margin-bottom: 40px;
+.section-facility .container .card .txt span{
+    margin-bottom: 30px;
+    font-size: 20px;
 }
-.section-facility .container .card-group .card .txt p{
-    font-size: 16px;
-    line-height: 24px;
-    color: #352D21;
-}
-.section-facility .container .card-group .card .txt p + p{
-    margin-top: 20px;
+.section-facility .container .card .txt p{
+    line-height: 30px;
 }
 
+@media screen and (max-width:768px) {
+    .section-facility{
+        padding: 50px 0;
+    }
+    .section-facility .container{
+        width: 80%;
+    }
+    .section-facility .container .card{
+        width: 100%;
+    }
+    .section-facility .container .card .pic-group{
+        width: 60%;
+        display: flex;
+    }
+    .section-facility .container .card .pic-group .pic-big{
+        width: 80%;
+        display: block;
+        margin-right: 10px;
+    }
+    .section-facility .container .card .pic-group .pic-smalls{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-facility .container .card .txt{
+        width: 40%;
+        margin:0 10px;
+        padding: 0 30px;
+        font-size: 12px;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+        color: #352D21;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-facility .container .card .txt h2{
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .section-facility .container .card .txt span{
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+    .section-facility .container .card .txt p{
+        line-height: 24px;
+    }
+}

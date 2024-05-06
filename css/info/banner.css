@@ -11,9 +11,6 @@
 }
 .section-banner .txt{
     width: 1200px;
-}
-.section-banner .txt{
-    width: 1200px;
     margin: 0 auto;
 }
 .section-banner .txt span{
@@ -21,4 +18,14 @@
     font-size: 200px;
     position: absolute;
     bottom: -33px;
+}
+
+@media screen and (max-width:768px) {
+    .section-banner .txt{
+        width: 80%;
+    }
+    .section-banner .txt span{
+        font-size: 100px;
+        bottom: -18px;
+    }
 }

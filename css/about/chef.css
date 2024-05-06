@@ -1,7 +1,6 @@
 .section-chef{
     width: 100%;
     background-color:#EDE4D5;
-;
 }
 .section-chef .container{
     width: 1200px;
@@ -48,4 +47,46 @@
 }
 .section-chef .container .card .info .txt p + p{
     margin-top: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .section-chef .container{
+        width: 80%;
+        padding: 80px 0;
+    }
+    .section-chef .container .card{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .section-chef .container .card .pic{
+        width: 40%;
+        overflow: hidden;
+        border-top-left-radius: 47% 25%;
+        border-top-right-radius: 47% 25%;
+    }
+
+    .section-chef .container .card .info{
+        width: 40%;
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    .section-chef .container .card .info h2{
+        font-size: 24px;
+        margin-bottom: 20px;
+        letter-spacing: 0;
+    }
+    .section-chef .container .card .info .txt + .txt{
+        margin-top: 20px;
+    }
+    .section-chef .container .card .info .txt p{
+        font-size: 16px;
+        color: #352D21;
+        letter-spacing: 0;
+    }
+    .section-chef .container .card .info .txt p + p{
+        margin-top: 10px;
+    }
+    
 }

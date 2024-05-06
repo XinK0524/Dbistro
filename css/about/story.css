@@ -11,21 +11,11 @@
     position: absolute;
     top: 30px;
     left: 0px;
-    /* animation:move 2s infinite; */
-    
 }
-/* @keyframes move{
-    from{
-        left:-130px;
-    }
-    to{
-        left:0px;
-        
-    }
-}  */
 .section-story .background .pic-left img{
     width: 100%;
     vertical-align: middle;
+    object-fit: cover;
 }
 .section-story .background .pic-right{
     width: 30%;
@@ -36,6 +26,7 @@
 .section-story .background .pic-right img{
     width: 100%;
     vertical-align: middle;
+    object-fit: cover;
 }
 .section-story .container{
     width: 1200px;
@@ -63,4 +54,44 @@
 }
 .section-story .container .txt p + p{
     margin-top: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .section-story{
+        position: relative;
+    }
+    .section-story .background .pic-left{
+        width: 20%;
+        position: absolute;
+        top: 30px;
+        left: 0px;
+    }
+    .section-story .background .pic-right{
+        width: 28%;
+        position: absolute;
+        right: 0;
+        bottom: -160px;
+    }
+    .section-story .container{
+        width: 80%;
+        padding: 50px 0;
+    }
+    .section-story .container h2{
+        font-size: 24px;
+        padding: 0 120px 20px;
+        border-bottom: 2px solid #DBA33C;
+        margin-bottom: 20px;
+        letter-spacing: 3px;
+    }
+    .section-story .container .txt + .txt{
+        margin-top: 30px;
+    }
+    .section-story .container .txt p{
+        font-size: 14px;
+        color: #352D21;
+        letter-spacing: 3px;
+    }
+    .section-story .container .txt p + p{
+        margin-top: 20px;
+    }
 }
