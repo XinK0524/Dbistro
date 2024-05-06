@@ -46,10 +46,17 @@
 }
 .section-sheet .container .card .sheetinfo .info  input{
     width: 200px;
+    height: 30px;
     background-color: #EDE4D5;
     border:1px solid #352D21;
-    border-top-right-radius: 5px 5px;
-    border-bottom-left-radius: 5px 5px;
+    padding: 0 5px;
+    font-size: 16px;
+}
+.section-sheet .container .card .sheetinfo .info input[type="date"] {
+    height: 36px;
+}
+.section-sheet .container .card .sheetinfo .info input[type="time"] {
+    height: 36px;
 }
 .section-sheet .container .card .sheetinfo .data{
     width: 30%;

@@ -28,3 +28,13 @@
         bottom: -18px;
     }
 }
+
+@media screen and (max-width:430px) {
+    .section-banner .txt{
+        width: 80%;
+    }
+    .section-banner .txt span{
+        font-size: 60px;
+        bottom: -12px;
+    }
+}

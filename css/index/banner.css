@@ -46,16 +46,6 @@
 }
 
 @media screen and (max-width:768px){
-    /* .section-banner .slideshow .page{
-        width: 1200px;
-        position: absolute;
-        bottom: -30px;
-    } */
-    /* .section-banner .slideshow .page span{
-        width: 33.333%;
-        height: 5px;
-        background-color: #DBA33C;
-    } */
     .section-banner .title{
         font-size: 24px;
         font-weight: 600;
@@ -72,5 +62,29 @@
     }
     .section-banner .title h1{
         font-size: 30px;
+    }
+}
+
+@media screen and (max-width:430px){
+    .section-banner .slideshow .pic-group{
+        width: 100%;
+        float: left;
+    }
+    .section-banner .title{
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        z-index: 5;
+    }
+    .section-banner .title span{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .section-banner .title h1{
+        font-size: 20px;
     }
 }

@@ -95,3 +95,43 @@
         margin-top: 20px;
     }
 }
+
+@media screen and (max-width:430px) {
+    .section-story{
+        position: relative;
+    }
+    .section-story .background .pic-left{
+        width: 18%;
+        position: absolute;
+        top: 20px;
+        left: 0px;
+    }
+    .section-story .background .pic-right{
+        width: 28%;
+        position: absolute;
+        right: 0;
+        bottom: -120px;
+    }
+    .section-story .container{
+        width: 80%;
+        padding: 30px 0;
+    }
+    .section-story .container h2{
+        font-size: 20px;
+        padding: 0 60px 20px;
+        border-bottom: 2px solid #DBA33C;
+        margin-bottom: 20px;
+        letter-spacing: 3px;
+    }
+    .section-story .container .txt + .txt{
+        margin-top: 15px;
+    }
+    .section-story .container .txt p{
+        font-size: 12px;
+        color: #352D21;
+        letter-spacing: 3px;
+    }
+    .section-story .container .txt p + p{
+        margin-top: 20px;
+    }
+}

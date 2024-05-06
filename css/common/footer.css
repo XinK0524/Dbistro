@@ -90,3 +90,48 @@ footer .container .footer-item .icon-group .icon img{
     }
     
 }
+
+@media screen and (max-width:430px) {
+    footer .container{
+        width: 80%;
+    }
+    footer .container h2{
+        font-size: 20px;
+    }
+    footer .container .footer-item {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+    footer .container .footer-item .logo{
+        width: 150px;
+    }
+    footer .container .footer-item .logo img{
+        width: 100%;
+        vertical-align: middle;
+    }
+    footer .container .footer-item .info{
+        width: 100%;
+        line-height: 16px;
+        font-size: 12px;
+        margin:15px 0;
+    }
+    footer .container .footer-item .info p + p{
+        margin-top: 5px; 
+    }
+    footer .container .footer-item .icon-group{
+        margin: auto 10px auto 0;
+        
+    }
+    footer .container .footer-item .icon-group h2{
+        margin-bottom: 15px;
+    }
+    footer .container .footer-item .icon-group .icon{
+        height: 20px;
+        margin-right: 8px;
+    }
+    footer .container .footer-item .icon-group .icon img{
+        height: 100%;
+        vertical-align: middle;
+    }
+}
