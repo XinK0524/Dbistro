@@ -1,6 +1,3 @@
-input{
-    display: none;
-}
 header {
     width: 100%;
     position: relative;
@@ -8,6 +5,9 @@ header {
 header .container{
     width: 100%;
     background-color: #090902;
+}
+header .containerinput{
+    display: none;
 }
 header .container .meun{
     width: 100%;

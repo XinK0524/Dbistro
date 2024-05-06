@@ -10,13 +10,14 @@
 .section-meun .container .tag-group{
     width: 100%;
     border-bottom: 3px solid #DBA33C;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     display: flex;
 }
 .section-meun .container .tag-group label:hover{
     cursor: pointer;
 }
 .section-meun .container .tag-group .tag{
+    font-size: 20px;
     padding: 15px 30px;
     background-color: #DBA33C;
     border-top-left-radius: 15px;
@@ -34,7 +35,6 @@
 }
 
 .section-meun .container .tag-group .tag h2{
-    font-size: 20px;
     font-weight: 600;
     color: white;
 }
@@ -63,10 +63,10 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 .section-meun .container .card-group .card .pic .hot{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     position: absolute;
-    top: -200px;
+    top: -50px;
     right: 5px;
 }
 .section-meun .container .card-group .card .pic .hot img{
