@@ -32,12 +32,16 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.section-facility .container .card .pic-group .pic-smalls .pic-s{
-    width: 100%;
+.section-facility .container .card .pic-group .pic-smalls label{
+    display: inline-block;
     height: 24%;
-    cursor: pointer;
     overflow: hidden;
     transition: 0.5s;
+}
+.section-facility .container .card .pic-group .pic-smalls .pic-s{
+    width: 100%;
+    cursor: pointer;
+    
 }
 .section-facility .container .card .pic-group .pic-smalls .pic-s img{
     width: 100%;
@@ -48,10 +52,19 @@
     scale: 1.2;
     transition: 0.5s;
 }
+.section-facility .container .card input{
+    display: none;
+}
+.section-facility .container .card input:checked + .txt{
+    display: block;
+}
+.section-facility .container .card input:not(:checked) + .txt{
+    display: none;
+}
 .section-facility .container .card .txt{
     width: 40%;
     margin-left: 10px;
-    padding: 0 30px;
+    padding: 70px 30px 0;
     font-size: 16px;
     box-shadow: 3px 3px 5px rgba(210, 185, 142, 0.3) , -3px -3px 5px rgba(255, 255, 255, 0.3);
     
@@ -75,15 +88,9 @@
     line-height: 30px;
 }
 
-.section-facility .container .card #txt1{
-    display: none;
-}
-.section-facility .container .card #txt2{
-    display: none;
-}
-.section-facility .container .card #txt3{
-    display: none;
-}
+
+
+
 
 
 @media screen and (max-width:768px) {
@@ -112,7 +119,7 @@
     }
     .section-facility .container .card .txt{
         width: 40%;
-        padding: 0 30px;
+        padding: 7px 30px 0;
         font-size: 12px;
         box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
         color: #352D21;

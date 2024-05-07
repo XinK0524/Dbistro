@@ -3,7 +3,6 @@
     background-color: #EDE4D5;
 }
 .section-foodpic .pic-group{
-    width: 100%;
     height: 300px;
     display: flex;
     overflow: hidden;
@@ -17,9 +16,72 @@
     object-fit: cover;
 }
 
-@media screen and (max-width:768px) {
-    .section-foodpic .pic-group{
+    @keyframes marquee {
+        0% {
+        transform: translateX(0);
+        }
+        100% {
+        transform: translateX(-100%);
+        }
+    }
+    @media (max-width: 768px) {
+        @keyframes marquee {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-125%);
+        }
+        }
+    }
+    @media (max-width: 430px) {
+        @keyframes marquee {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-166.65%);
+        }
+        }
+    }
+    .section-foodpic {
+        padding: 50px 0 0;
         width: 100%;
+    }
+    .section-foodpic .view {
+        overflow: hidden;
+        width: 100%;
+    }
+    .section-foodpic .pic-group {
+        float: left;
+        animation: marquee 60s infinite linear;
+    }
+    .section-foodpic .pic-group .pic {
+        flex-basis: 20%;
+        flex-shrink: 1;
+    }
+    @media (max-width: 768px) {
+        .section-foodpic .view .pic-group{
+            height: 200px;
+        }
+        .section-foodpic .pic-group .pic {
+            flex-basis: 25%;
+        }
+    }
+    @media (max-width: 430px) {
+        .section-foodpic .pic-group .pic {
+        flex-basis: 33.33%;
+        }
+    }
+    .section-foodpic img {
+        height: 100%;
+        vertical-align: middle;
+        object-fit: cover;
+        object-position: center;
+    }
+
+/* @media screen and (max-width:768px) {
+    .section-foodpic .pic-group{
         height: 200px;
         display: flex;
         overflow: hidden;
@@ -31,7 +93,6 @@
 
 @media screen and (max-width:768px) {
     .section-foodpic .pic-group{
-        width: 100%;
         height: 120px;
         display: flex;
         overflow: hidden;
@@ -39,4 +100,4 @@
     .section-foodpic .pic-group .pic{
         height: 120px;
     }
-}
+} */
