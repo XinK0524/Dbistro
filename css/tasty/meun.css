@@ -202,7 +202,7 @@
         justify-content: space-between;
     }
     .section-meun .container .tag-group .tag{
-        padding: 15px 18px;
+        padding: 15px 25px;
         margin:0;
     }
     .section-meun .container .tag-group .tag h2{
@@ -230,3 +230,19 @@
     
 }
 
+@media screen and (max-width:390px) {
+    .section-meun .container .tag-group{
+        width: 100%;
+        border-bottom: 2px solid #DBA33C;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .section-meun .container .tag-group .tag{
+        padding: 15px 18px;
+        margin:0;
+    }
+    .section-meun .container .tag-group .tag h2{
+        font-size: 16px;
+    }
+}

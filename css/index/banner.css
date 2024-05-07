@@ -5,26 +5,36 @@
 .section-banner .slideshow{
     width: 100%;
     overflow: hidden;
-    position: relative;
 }
 .section-banner .slideshow .pic-group{
-    width: 100%;
+	position: relative;
+}
+.section-banner .slideshow .pic-group .pic{
     float: left;
 }
 .section-banner .slideshow .pic-group img{
     width: 100%;
     vertical-align: middle;
     object-fit: cover;
+    object-position: left center;
 }
 
 .section-banner .slideshow .page{
-    width: 1200px;
+    display: flex;
     position: absolute;
-    bottom: -30px;
+    bottom: 30px;
+    left: 8%;
+    z-index: 5;
 }
 .section-banner .slideshow .page span{
-    width: 33.333%;
-    height: 5px;
+    width: 25px;
+    height: 25px;
+    background-color: rgba(219, 163, 60,.5);
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+.section-banner .slideshow .page span.clicked{
     background-color: #DBA33C;
 }
 .section-banner .title{
@@ -46,6 +56,36 @@
 }
 
 @media screen and (max-width:768px){
+    .section-banner .slideshow{
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+    }    
+    .section-banner .slideshow .pic-group img{
+        width: 100%;
+        height:100%;
+        vertical-align: middle;
+        object-fit: cover;
+        object-position: left center;
+    }
+    .section-banner .slideshow .page{
+        display: flex;
+        position: absolute;
+        bottom: 10px;
+        left: 12%;
+        z-index: 5;
+    }
+    .section-banner .slideshow .page span{
+        width: 25px;
+        height: 25px;
+        background-color: rgba(219, 163, 60,.5);
+        display: inline-block;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .section-banner .slideshow .page span.clicked{
+        background-color: #DBA33C;
+    }
     .section-banner .title{
         font-size: 24px;
         font-weight: 600;
@@ -66,9 +106,39 @@
 }
 
 @media screen and (max-width:430px){
+    .section-banner .slideshow{
+        width: 100%;
+        height: 160px;
+        overflow: hidden;
+    }    
+    .section-banner .slideshow .pic-group img{
+        width:100%;
+        height: 100%;
+        vertical-align: middle;
+        object-fit: cover;
+        object-position: left center;
+    }
     .section-banner .slideshow .pic-group{
         width: 100%;
         float: left;
+    }
+    .section-banner .slideshow .page{
+        display: flex;
+        position: absolute;
+        bottom: 2px;
+        left: 8%;
+        z-index: 5;
+    }
+    .section-banner .slideshow .page span{
+        width: 10px;
+        height: 10px;
+        background-color: rgba(219, 163, 60,.5);
+        display: inline-block;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .section-banner .slideshow .page span.clicked{
+        background-color: #DBA33C;
     }
     .section-banner .title{
         font-size: 16px;

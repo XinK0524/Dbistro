@@ -16,6 +16,7 @@
 .section-banner .txt span{
     color: #EDE4D5;
     font-size: 200px;
+    font-weight: 500;
     position: absolute;
     bottom: -33px;
 }

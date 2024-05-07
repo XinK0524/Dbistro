@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D-Bistro</title>
+    <script src="JS/index.js"></script>
     <link rel="stylesheet" href="css/index/index.css">
+    <script src="JS/index.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -82,7 +84,6 @@
     }
     }
 
-    
     </style>
 </head>
 <body>
@@ -139,23 +140,19 @@
     </header>
     <!-- banner -->
     <section class="section-banner">
-        <div class="slideshow">
-            <div class="pic-group">
+        <div class="slideshow" id="sliderBoard">
+            <div class="pic-group" id="content">
                 <div class="pic">
                     <img src="img/index/banner_1.jpg" alt="">
                 </div>
-                <!-- <div class="pic">
+                <div class="pic">
                     <img src="img/index/banner_2.jpg" alt="">
                 </div>
                 <div class="pic">
                     <img src="img/index/banner_3.jpg" alt="">
-                </div> -->
+                </div>
             </div>
-            <div class="page">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+            <div class="page" id="contentButton"></div>
         </div>
         <div class="title">
             <span>GIVE YOU ONLY</span>
@@ -189,7 +186,7 @@
         </div>
         <div class="container">
             <div class="recommend-info">
-                <div class="pic-group">
+                <div class="pic-group" id="picGgroup">
                     <div class="food-pic">
                         <img src="img/index/recommend-foodpic1.jpg" alt="recommend-foodpic1">
                     </div>

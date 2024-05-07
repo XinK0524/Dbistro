@@ -21,6 +21,7 @@
     font-size: 200px;
     position: absolute;
     bottom: -33px;
+    font-weight: 500;
 }
 
 @media screen and (max-width:768px) {

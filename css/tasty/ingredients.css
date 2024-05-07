@@ -201,3 +201,24 @@
         line-height: 26px;
     }
 }
+
+@media screen and (max-width:390px) {
+    .section-ingredients .container .title::before{
+        content:"";
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        width: 7%;
+        height: 2px;
+        background-color: #DBA33C;
+    }
+    .section-ingredients .container .title::after{
+        content:"";
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        width: 7%;
+        height: 2px;
+        background-color: #DBA33C;
+    }
+}
