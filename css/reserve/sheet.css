@@ -1,6 +1,6 @@
 .section-sheet{
     width: 100%;
-    background-color: #EDE4D5;
+    background-color: rgb(237, 228, 213);
     padding: 100px 0;
 }
 .section-sheet .container{
@@ -18,20 +18,35 @@
 }
 .section-sheet .container .card{
     width: 80%;
-    display: flex;
     margin:  40px auto 0;
+    box-shadow: 3px 3px 5px rgba(210, 185, 142, 0.3) , -3px -3px 5px rgba(255, 255, 255, 0.3);
+    display: flex;
     justify-content:space-evenly;
+    
+}
+.section-sheet .container .card .pic{
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+.section-sheet .container .card .pic img{
+    width: 120%;
+    vertical-align: middle;
+    object-fit: cover;
+    position: absolute;
+    bottom: 60px;
+    right: 0;
 }
 .section-sheet .container .card .sheetinfo{
-    width: 400px;
-    padding-top: 42px;
+    width: 50%;
+    padding: 30px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .section-sheet .container .card .sheetinfo .info{
-    font-size: 16px;
+    font-size: 20px;
     color: #352D21;
     letter-spacing: 4px;
 }
@@ -45,11 +60,11 @@
     margin-top: 10px;
 }
 .section-sheet .container .card .sheetinfo .info  input{
-    width: 200px;
+    width: 300px;
     height: 30px;
     background-color: #EDE4D5;
     border:1px solid #352D21;
-    padding: 0 5px;
+    padding: 0 10px;
     font-size: 16px;
 }
 .section-sheet .container .card .sheetinfo .info input[type="date"] {
@@ -58,57 +73,109 @@
 .section-sheet .container .card .sheetinfo .info input[type="time"] {
     height: 36px;
 }
-.section-sheet .container .card .sheetinfo .data{
-    width: 30%;
-}
 .section-sheet .container .card .sheetinfo .info .btn{
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 35px;
     background-color: #DBA33C;
     border: none;
     font-size: 20px;
     font-weight: bold;
     color: white;
+}
 
+
+@media screen and (max-width:768px) {
+    .section-sheet{
+        padding: 50px 0;
+    }
+    .section-sheet .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .section-sheet .container h2{
+        font-size: 24px;
+        letter-spacing: 4px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #DBA33C;
+    }
+    .section-sheet .container .card{
+        width: 90%;
+        margin:  20px auto 0;
+        box-shadow: 3px 3px 5px rgba(210, 185, 142, 0.3) , -3px -3px 5px rgba(255, 255, 255, 0.3);
+        display: flex;
+        justify-content:space-evenly;
+        
+    }
+    .section-sheet .container .card .pic{
+        width: 50%;
+        position: relative;
+        overflow: hidden;
+        
+    }
+    .section-sheet .container .card .pic img{
+        width: 160%;
+        vertical-align: middle;
+        object-fit: cover;
+        position: absolute;
+        bottom: 70px;
+        right: 30px;
+    }
+    .section-sheet .container .card .sheetinfo{
+        width: 50%;
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-sheet .container .card .sheetinfo .info{
+        font-size: 16px;
+        color: #352D21;
+        letter-spacing: 4px;
+    }
+    .section-sheet .container .card .sheetinfo .info + .info{
+        margin-top: 20px;
+    }
+    .section-sheet .container .card .sheetinfo .info label{
+        display: block;
+    }
+    .section-sheet .container .card .sheetinfo .info label + input{
+        margin-top: 10px;
+    }
+    .section-sheet .container .card .sheetinfo .info  input{
+        width: 200px;
+        height: 30px;
+        background-color: #EDE4D5;
+        border:1px solid #352D21;
+        padding: 0 10px;
+        font-size: 16px;
+    }
+    .section-sheet .container .card .sheetinfo .info input[type="date"] {
+        height: 36px;
+    }
+    .section-sheet .container .card .sheetinfo .info input[type="time"] {
+        height: 36px;
+    }
+    .section-sheet .container .card .sheetinfo .info .btn{
+        width: 150px;
+        height: 35px;
+        background-color: #DBA33C;
+        border: none;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+    }
 }
-.section-sheet .container .card .date{
-    width: 50%;
-    text-align: center;
-}
-.section-sheet .container .card .date .pic{
-    width: 85%;
-    margin: 0 auto;
-}
-.section-sheet .container .card .date .pic img{
-    width: 100%;
-    vertical-align: middle;
-}
-.section-sheet .container .card .date span{
-    display: inline-block;
-    font-size: 24px;
-    color: #352D21;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-.section-sheet .container .card .date span + span{
-    margin-left: 20px;
-}
-.section-sheet .container .card .date .tag span{
-    display: inline-block;
-    font-size: 16px;
-    font-weight: none;
-    margin-top: 12px;
-}
-.section-sheet .container .card .date .tag{
-    margin-left: 37px;
-    text-align: left;
-}
-.section-sheet .container .card .date .tag .icon{
-    width: 12px;
-    height: 12px;
-    margin: 0 5px 0 15px;
-}
-.section-sheet .container .card .date .tag .icon img{
-    width: 100%;
-    vertical-align:baseline;
+
+@media screen and (max-width:768px) {
+    .section-sheet{
+        padding: 30px 0;
+    }
+    .section-sheet .container .card .pic{
+        width: 50%;
+        position: relative;
+        overflow: hidden;
+        display: none;
+    }
+
 }

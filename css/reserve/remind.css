@@ -1,0 +1,53 @@
+.section-remind{
+    width: 100%;
+    background-color: #EDE4D5;
+    padding-bottom: 100px;
+}
+.section-remind .container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.section-remind .container .txt{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #352D21;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.section-remind .container .txt h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.section-remind .container .txt span{}
+.section-remind .container .txt p{
+    margin: 20px 0;
+}
+
+
+@media screen and (max-width:768px) {
+    .section-remind{
+        padding-bottom: 50px;
+    }
+    .section-remind .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .section-remind .container .txt{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 14px;
+        color: #352D21;
+        letter-spacing: 2px;
+        line-height: 30px;
+    }
+    .section-remind .container .txt h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .section-remind .container .txt span{}
+    .section-remind .container .txt p{
+        margin: 20px 0;
+    }
+}

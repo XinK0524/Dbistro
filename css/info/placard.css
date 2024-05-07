@@ -60,7 +60,10 @@
     }
     .section-placard .container .card-group .card{
         padding: 25px 15px 15px;
-        margin: 0 5px;
+        margin: 0;
+    }
+    .section-placard .container .card-group .card+.card{
+        margin-left: 10px;
     }
     .section-placard .container .card-group .card .pic{
         width: 50px;
@@ -92,7 +95,7 @@
     }
     .section-placard .container .card-group .card{
         width: 100%;
-        padding: 10px 5px;
+        padding: 20px 5px;
         margin: 8px 0;
         display: flex;
         

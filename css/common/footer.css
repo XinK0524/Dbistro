@@ -6,7 +6,7 @@ footer .container{
     width: 1200px;
     height: 100%;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 40px 0 20px;
     align-content: center;
 }
 footer .container h2{
@@ -94,6 +94,7 @@ footer .container .footer-item .icon-group .icon img{
 @media screen and (max-width:430px) {
     footer .container{
         width: 80%;
+        padding: 25px 0 15px;
     }
     footer .container h2{
         font-size: 20px;
@@ -114,7 +115,7 @@ footer .container .footer-item .icon-group .icon img{
         width: 100%;
         line-height: 16px;
         font-size: 12px;
-        margin:15px 0;
+        margin:20px 0;
     }
     footer .container .footer-item .info p + p{
         margin-top: 5px; 
@@ -133,5 +134,8 @@ footer .container .footer-item .icon-group .icon img{
     footer .container .footer-item .icon-group .icon img{
         height: 100%;
         vertical-align: middle;
+    }
+    footer .container span{
+        margin-top: 30px;
     }
 }
