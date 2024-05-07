@@ -51,6 +51,7 @@
     align-items: center;
     justify-content: center;
     bottom: 0;
+    transition: transform 0.2s ease;
 }
 .section-location .container .location-info .card a .icon{
     width: 18px;
@@ -70,7 +71,8 @@
     vertical-align: middle;
 }
 .section-location .container .location-info .card a:hover{
-    transition: scale(1.05);
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
 }
 
 @media screen and (max-width:768px) {

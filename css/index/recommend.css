@@ -27,6 +27,7 @@
     width: 100%;
     height: auto;
     vertical-align: middle;
+    transition: .5s;
 }
 .section-recommend .container .pic-group .food-pic img:hover{
     scale: 1.2;
@@ -63,12 +64,14 @@
     padding: 15px 20px;
     background-color: #DBA33C;
     margin-top: 20px;
+    transition: transform 0.2s ease;
 }
 .section-recommend .container .card span{
     margin-left: 10px;
 }
 .section-recommend .container .card a:hover{
     transform: scale(1.05);
+    transition: transform 0.2s ease;
 }
 
 @media screen and (max-width:768px) {
@@ -154,8 +157,8 @@
     .section-recommend .container .card{
         width: 100%;
         background-color: #EDE4D5;
-        box-sizing: border-box;
         font-size: 12px;
+        margin: 0;
     }
     .section-recommend .container .card span{
         font-weight: 600;
