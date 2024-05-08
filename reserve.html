@@ -6,6 +6,10 @@
     <title>D-Bistro</title>
     <link rel="stylesheet" href="css/reserve/reserve.css">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -20,6 +24,14 @@
 
 </head>
 <body>
+
+    <script>
+        AOS.init({
+            delay: 200,
+            duration: 1000,
+        });
+    </script>
+
     <!-- 導覽列 -->
     <header>
         <div class="container">
@@ -86,7 +98,7 @@
             <h2>我要訂位</h2>
             <div class="card">
                 <div class="pic">
-                    <img src="img/reserve/sheet-pic.png" alt="">
+                    <img src="img/reserve/sheet-pic.png" data-aos="fade-down-right" alt="">
                 </div>
                 <div class="sheetinfo">
                     <div class="info">
