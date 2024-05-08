@@ -96,9 +96,12 @@
     .section-placard .container .card-group .card{
         width: 100%;
         padding: 20px 5px;
-        margin: 8px 0;
+        margin: 8px 0 ;
         display: flex;
         
+    }
+    .section-placard .container .card-group .card+.card {
+        margin-left: 0;
     }
     .section-placard .container .card-group .card .pic{
         width: 50%;
