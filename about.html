@@ -6,12 +6,12 @@
     <title>D-Bistro</title>
     <link rel="stylesheet" href="css/about/about.css">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <style>
     body{
@@ -24,6 +24,15 @@
 </head>
 
 <body>
+
+    <script>
+        AOS.init({
+            delay: 200,
+            duration: 1000,
+        });
+    </script>
+
+
     <!-- 導覽列 -->
     <header>
         <div class="container">
@@ -76,7 +85,7 @@
         </div>
     </header>
     <!-- banner -->
-    <section class="section-banner">
+    <section class="section-banner" >
         <div class="pic">
             <img src="img/about/banner-bg.jpg" alt="banner-bg">
         </div>
@@ -87,10 +96,10 @@
     <!-- 我們的故事 -->
     <section class="section-story">
         <div class="background">
-            <div class="pic-left">
+            <div class="pic-left" data-aos="fade-right">
                 <img src="img/about/bg-left.png" alt="">
             </div>
-            <div class="pic-right">
+            <div class="pic-right" data-aos="fade-left">
                 <img src="img/about/bg-right.png" alt="">
             </div>
         </div>

@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/index/index.css">
     <script src="JS/index.js"></script>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -87,6 +90,14 @@
     </style>
 </head>
 <body>
+
+    <script>
+        AOS.init({
+            delay: 200,
+            duration: 1000,
+        });
+    </script>
+
     <!-- 導覽列 -->
     <header>
         <div class="container">
@@ -164,7 +175,7 @@
     <!--關於我們 -->
     <section class="section-about">
         <div class="container">
-            <div class="card-group">
+            <div class="card-group" data-aos="fade-up">
                 <div class="card-pic">
                     <img src="img/index/about-left.jpg" alt="about-left">
                 </div>
@@ -213,7 +224,7 @@
     </section>
     <!-- 更多娛樂 -->
     <section class="section-entertainment">
-        <div class="card">
+        <div class="card" data-aos="fade-left">
             <h2>一齊同樂<span>ENTERTAINMENT</span></h2>
             <p>我們將傳統的美式餐酒館提升到一個全新的境界，結合了令人興奮的娛樂設施，讓客人享受一場極致的娛樂體驗。</p>
             <a href="info.html">更多娛樂<span><img src="img/index/icon-arrow.svg" alt="icon-arrow"></span></a>
