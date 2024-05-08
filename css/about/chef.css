@@ -138,7 +138,7 @@
     
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:390px) {
     .section-chef .container{
         width: 80%;
         padding: 60px 0 30px 0;
