@@ -4,7 +4,7 @@ header {
 }
 header .container{
     width: 100%;
-    background-color: #090902;
+    background-color: hsl(60, 64%, 2%);
 }
 header .container input{
     display: none;
@@ -49,7 +49,7 @@ header .container .meun .meun-item li a .icon img{
     vertical-align: top;
 }
 header .container .meun .meun-item li a{
-    display: inline-block;
+    display: block;
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -128,9 +128,11 @@ header .container .meun .meun-item li a:hover::after{
     }
     #meun-switch:checked ~ .meun{
         display: block;
+        background-color: #090902;
     }
     #meun-switch:checked ~ .hb{
         position: relative;
+        background-color: #090902;
     }
     #meun-switch:checked ~ .hb span:nth-child(1){
         transform: rotate(45deg);
