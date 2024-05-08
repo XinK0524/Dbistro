@@ -84,6 +84,7 @@ header .container .meun .meun-item li a:hover::after{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        transition: all 0.5s;
     }
     header .container .hb span{
         display: block;
@@ -91,6 +92,7 @@ header .container .meun .meun-item li a:hover::after{
         width: 80% ;
         height: 7px;
         background-color: #fff;
+        transition: all 0.5s;
     }
     header .container .logo{
         width: 200px;
@@ -138,6 +140,7 @@ header .container .meun .meun-item li a:hover::after{
         transform: rotate(45deg);
         position: absolute;
         left: 12%;
+        transition: all 0.5s;
     }
     #meun-switch:checked ~ .hb span:nth-child(2){
         display: none;
@@ -145,7 +148,8 @@ header .container .meun .meun-item li a:hover::after{
     #meun-switch:checked ~ .hb span:nth-child(3){
         transform: rotate(-45deg);
         position: absolute;
-        left: 12%;      
+        left: 12%;
+        transition: all 0.5s;      
     }
     
 }
@@ -175,6 +179,5 @@ header .container .meun .meun-item li a:hover::after{
         width: 100%;
         padding: 0;
         z-index: 10;
-        display: none;
     }
 }
